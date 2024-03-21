@@ -2,7 +2,7 @@ body{
     font-family:Arial, Helvetica, sans-serif;
     margin: 0;
 }
-header,.header-container1,.header-container2,.nav-list{
+header,.header-container1,.header-container2,.nav-list,.body-top,.body1-container{
     display: flex;
 }
 header{
@@ -66,4 +66,35 @@ button {
     padding: .5em 1.5em;
     border: none;
     border-radius: .35em;
+}
+.body-top{
+    flex-direction: column;
+    align-items: center;
+    padding: 1em 20%;
+}
+.body1-container{
+    justify-content: center;
+    border-width: 1em;
+    border-color: #1F2937;
+    gap: 10%;
+}
+.img-content img{
+    width: 175px;
+    height: 175px;
+    object-fit: cover;
+    border-radius: 1em;
+}
+.img-content p {
+    font-weight: lighter;
+    color:#1f2937f6;
+    margin: 0;
+}
+.img-content{
+    justify-content: center;
+    text-align: center;
+}
+.body-top h2{
+    font-size: 36px;
+    font-weight: 800;
+    color: #1F2937;
 }
