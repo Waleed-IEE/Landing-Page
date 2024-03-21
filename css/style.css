@@ -1,8 +1,8 @@
 body{
-    font-family:Arial, Helvetica, sans-serif;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 0;
 }
-header,.header-container1,.header-container2,.nav-list,.body-top,.body1-container{
+header,.header-container1,.header-container2,.nav-list,.body-top,.body1-container,.body-bottom{
     display: flex;
 }
 header{
@@ -64,6 +64,7 @@ button {
     color:#F9FAF8;
     background-color: #3882f6;
     padding: .5em 1.5em;
+    border-width: 0;
     border: none;
     border-radius: .35em;
 }
@@ -87,7 +88,7 @@ button {
 }
 .img-content p {
     font-weight: lighter;
-    color:#1f2937f6;
+    color:#1f2937e2;
     margin: 0;
 }
 .img-content{
@@ -117,4 +118,28 @@ blockquote{
     font-weight: bold;
     font-style: normal;
     font-size: 27px;
+}
+/**/
+.body-bottom{
+    justify-content: space-between;
+    margin: 5% 10%;
+    padding: 4% 8%;
+    background-color: #3882f6;
+    color: #F9FAF8;
+    border-radius: .35em;
+    font-size:larger;
+}
+.body-bottom button{
+    border-color: #F9FAF8;
+    border-width: 3px;
+    border-style:solid;
+    flex-shrink: 0;
+    font-size:large;
+    padding: 1% 5%;
+}
+.ad h3,.ad p{
+    margin: 0;
+}
+.ad p{
+    color: #e5e7ebd4;
 }
