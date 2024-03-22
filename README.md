@@ -8,7 +8,7 @@ This landing page showcases my HTML and CSS skills and can be used as a template
 
 ## Preview
 
-![Landing Page Preview](https://waleed-iee.github.io/Landing-Page/)
+[Landing Page Preview](https://waleed-iee.github.io/Landing-Page/)
 
 ## Credits
 
