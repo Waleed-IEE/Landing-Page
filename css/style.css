@@ -149,5 +149,8 @@ blockquote{
 footer{
     text-align: center;
     padding: 1%;
+}
+footer a{
     color: #e5e7eb;
+    text-decoration:underline;
 }
